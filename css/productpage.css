@@ -299,3 +299,27 @@ html, body {
     }
   }
   
+  body {
+    padding-top: 50px;
+  }
+
+  .navbar-name {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .navbar-name:hover,
+  .navbar-name:focus {
+    text-decoration: none;
+  }
+  .navbar-name > img {
+    display: block;
+  }
+  @media (min-width: 768px) {
+    .navbar > .container .navbar-name,
+    .navbar > .container-fluid .navbar-name {
+      margin-left: -15px;
+    }
+}
