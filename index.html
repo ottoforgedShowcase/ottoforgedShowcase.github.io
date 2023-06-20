@@ -83,17 +83,29 @@
     }
     #hlImage {
         width: 100%;
+        height: auto;
         text-align: center;
     }
     #hlText {
         width: 100%;
+        height: auto;
         text-align: left;
     }
+    img.HL {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+    }
+    .bg-primary {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
 </style>
 <section class="bg-primary" id="highlight">
-    <div class="wrapper">
+    <div class="wrapper" width="device-width">
             <div id="hlImage">
-                <img src="../img/hlImage.png" alt="Highlight Image" style="width:300px; border-radius: 20px">
+                <img class="HL" src="../img/hlImage.png" alt="Highlight Image" style="border-radius: 20px">
             </div>
             <div id="hlText">
                 <h2>Blue and Red Snow Cone</h2>
