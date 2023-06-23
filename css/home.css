@@ -73,6 +73,7 @@ button {
     color: aliceblue;
     padding: 13px 30px;
     cursor: pointer;
+    border-radius: 300px;
     text-transform: uppercase;
     transition: 0.3s ease;
 }
