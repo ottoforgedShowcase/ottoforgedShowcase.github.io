@@ -143,6 +143,7 @@ button:hover{
 .navbar-light .navbar-nav .nav-link.active,
 .navbar i.active {
     color: coral;
+    cursor: pointer;
 }
 
 .navbar i{
@@ -154,6 +155,7 @@ button:hover{
 
 .container .navbar-brand .row:hover,
 .container .navbar-brand .row:active {
+    cursor: pointer;
     transition: 0.3s ease;
     color: coral;
 }
@@ -177,6 +179,7 @@ button:hover{
 .container .navbar-brand .row:active,    
 .logo-image:hover .hover-img {
     display: inline;
+    cursor: pointer;
     }
 
 /*mobile navbar */
