@@ -64,6 +64,10 @@ h6 {
   color: #d8d8d8;
 }
 
+h7 {
+    padding: 0 60px;
+}
+
 .container hr {
     margin: auto;
     width: 5%;
@@ -147,6 +151,33 @@ button:hover{
     cursor: pointer;
     transition: 0.3 ease;
 }
+
+.container .navbar-brand .row:hover,
+.container .navbar-brand .row:active {
+    transition: 0.3s ease;
+    color: coral;
+}
+
+.logo-image{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    }
+
+.container .navbar-brand .row:active,    
+.logo-image:hover .hover-img {
+    display: inline;
+    }
 
 /*mobile navbar */
 .navbar-light .navbar-toggler {
